@@ -1,3 +1,3 @@
-# segndo trimestre - mobile-first
+# segundo trimestre - mobile-first
 
 Leticia - 24
