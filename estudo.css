@@ -29,7 +29,7 @@ body {
 }
 .lado {
     background-color: yellowgreen;
-    height: 60vh;
+    height: 80vh;
     grid-area: lado;
 }
 .rodape {
