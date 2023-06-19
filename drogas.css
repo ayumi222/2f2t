@@ -54,6 +54,32 @@
     position: relative;
     width: 40px;
 }
+.hamb-line::before,
+.hamb-line::after{
+    background: yellowgreen;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+.side-menu{
+    display: none;
+}
+.side-menu:checked ~ nav {
+    max-width: 100%;
+}
+.side-menu:checked ~ .hamburger.hamb-line::before{
+    transform: rotate(-45deg);
+    top: 0;
+}
 .conteudo {
     width: 100%;
 }
