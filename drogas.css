@@ -147,33 +147,3 @@ ul{
         margin: 5px;
     }
 }
-.conteudo {
-    width: 100%;
-}
-.rodape {
-    width: 100%;
-    text-align: center;
-    background: coral;
-}
-.img-mobile {
-    width: 100%;
-    
-}
-@media screen and (min-width: 768px) {
-    .menu{
-        height: 100px;
-        background-color: rgb(72, 49, 136);
-    }
-    .conteudo-home{
-        display: flex;
-        padding: 10px;
-    }
-     
-   @media  screen and (min-width:1280px) {
-     .menu {
-        height: 150px;
-        background-color: rgb(100, 100, 189);
-     }
-   }
-        
-    }
