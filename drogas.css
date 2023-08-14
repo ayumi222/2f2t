@@ -73,10 +73,7 @@ ul{
 .hamb-line {
     background: var(--white);
     display: block;
-    height: 2px;
-    position: relative;
-    width: 24px;
-
+    height: 2px;;
 } /* Style span tag */
 
 .hamb-line::before,
@@ -197,6 +194,32 @@ ul{
     .info {
         grid-template-columns: 50% 50%;
         grid-area: "item" "item";
+    }
+    .tabela {
+        display: grid;
+        grid-template-columns: 50% 60%;
+        grid-template-areas: "titulo" "titulo";
+    }
+    .titulo {
+        background-color: #1f1f21;
+        color: beige;
+        grid-area: titulo;
+        width: 100%;
+    }
+    .coluna1 {
+        grid-area: c1;
+        background-color: aqua;
+        text-align: left;
+        border-style: solid;
+        border-color: #877979;
+        border-width: 1px;
+        padding-right: 5px;
+     }
+    .coluna2 {
+        grid-area: coluna2;
+        background-color: azure;
+        border-style: dotted;
+        border-width: 1px;
     }
 
 }
